@@ -6,7 +6,7 @@ Something I use when prototyping new ideas is to quickly get up and running usin
 Getting started
 ---
 
-1. Setup this repo as a submodule in your Corona directory.
-2. `local Colors = require("colors.plugin")`
+1. Setup this repo as a submodule in your Corona directory: `git submodule add git@github.com:indrif/corona-colors.git colors`
+2. In your lua code: `local Colors = require("colors.plugin")`
 
 See `main.lua` in this repo for examples of how to use the plugin.
